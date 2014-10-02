@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<package prefix="rendition: http://www.idpf.org/vocab/rendition/#" unique-identifier="unique-identifier" version="3.0" xmlns="http://www.idpf.org/2007/opf">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<!-- File Information -->
+		<dc:format id="format">application/epub+zip</dc:format>
+		<dc:identifier id="unique-identifier">1234567890</dc:identifier>
+		<dc:identifier id="issn-identifier">urn:issn:1041-9551</dc:identifier>
+		<meta property="dcterms:modified">2013-12-23</meta>
+		
+		<!-- Publication Information -->
+		<dc:title id="main-title">Nintendo Power | Issue #1</dc:title>
+		<meta refines="#main-title" property="file-as">Nintendo Power #001</meta>
+		<meta refines="#main-title" property="title-type">main</meta>
+		
+		<dc:title id="collection-title">Nintendo Power</dc:title>
+		<meta refines="#collection-title" property="title-type">collection</meta>
+		
+		<dc:title id="short-title">Nintendo Power #1</dc:title>
+		<meta refines="#short-title" property="short-type">short</meta>
+		
+		<dc:title id="subtitle">July/August 1988</dc:title>
+		<meta refines="#subtitle" property="title-type">subtitle</meta>
+		
+		<dc:title id="extended-title">Nintendo Power | July/August 1988 | Issue 1</dc:title>
+		<meta refines="#extended-title" property="title-type">extended</meta>
+		
+		<dc:description id="description">Nintendo Power: The source for NES players straight from the pros!</dc:description>
+		<dc:subject id="subject">Video Games</dc:subject>
+		
+		<dc:date id="publication-date">1988-07-01</dc:date>
+		<dc:language id="primary-language">en</dc:language>
+		<dc:type id="publication-type">Periodical</dc:type>
+		
+		<!-- Author Information -->
+		<dc:creator id="creator">Nintendo of America Inc.</dc:creator>
+		
+		<!-- Publisher Information -->
+		<dc:publisher id="publisher">Nintendo of America Inc.</dc:publisher>
+		<meta refines="#publisher" property="role" scheme="marc:relators">pbl</meta>
+		
+		<!-- Copyright Information -->
+		<dc:rights>
+			&#169; 1988 by Nintendo of America Inc.
+			All rights reserved.
+			Nothing that appears in Nintendo Power may be printed in whole or in part, without expressed permission from Nintendo of America Inc., copyright owner.
+			Originally printed in the U.S.A.
+			Nintendo is a registered trademark of Nintendo of America, Inc.
+		</dc:rights>
+		
+		<!-- ePub Properties -->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">auto</meta>
+		<meta property="rendition:spread">auto</meta>
+	</metadata>
+	
+	<manifest>
+		<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		
+		<item id="000-image" href="Content/Images/000.jpg" media-type="image/jpeg" properties="cover-image" />
+		<item id="001-image" href="Content/Images/001.jpg" media-type="image/jpeg" />
+		<item id="002-image" href="Content/Images/002.jpg" media-type="image/jpeg" />
+		<item id="003-image" href="Content/Images/003.jpg" media-type="image/jpeg" />
+		<item id="004-image" href="Content/Images/004.jpg" media-type="image/jpeg" />
+		<item id="005-image" href="Content/Images/005.jpg" media-type="image/jpeg" />
+		<item id="006-image" href="Content/Images/006.jpg" media-type="image/jpeg" />
+		<item id="007-image" href="Content/Images/007.jpg" media-type="image/jpeg" />
+		<item id="008-image" href="Content/Images/008.jpg" media-type="image/jpeg" />
+		<item id="009-image" href="Content/Images/009.jpg" media-type="image/jpeg" />
+		<item id="010-image" href="Content/Images/010.jpg" media-type="image/jpeg" />
+		<item id="011-image" href="Content/Images/011.jpg" media-type="image/jpeg" />
+		<item id="012-image" href="Content/Images/012.jpg" media-type="image/jpeg" />
+		<item id="013-image" href="Content/Images/013.jpg" media-type="image/jpeg" />
+		<item id="014-image" href="Content/Images/014.jpg" media-type="image/jpeg" />
+		<item id="015-image" href="Content/Images/015.jpg" media-type="image/jpeg" />
+		<item id="016-image" href="Content/Images/016.jpg" media-type="image/jpeg" />
+		<item id="017-image" href="Content/Images/017.jpg" media-type="image/jpeg" />
+		<item id="018-image" href="Content/Images/018.jpg" media-type="image/jpeg" />
+		<item id="019-image" href="Content/Images/019.jpg" media-type="image/jpeg" />
+		<item id="020-image" href="Content/Images/020.jpg" media-type="image/jpeg" />
+		<item id="021-image" href="Content/Images/021.jpg" media-type="image/jpeg" />
+		<item id="022-image" href="Content/Images/022.jpg" media-type="image/jpeg" />
+		<item id="023-image" href="Content/Images/023.jpg" media-type="image/jpeg" />
+		<item id="024-image" href="Content/Images/024.jpg" media-type="image/jpeg" />
+		<item id="025-image" href="Content/Images/025.jpg" media-type="image/jpeg" />
+		<item id="026-image" href="Content/Images/026.jpg" media-type="image/jpeg" />
+		<item id="027-image" href="Content/Images/027.jpg" media-type="image/jpeg" />
+		<item id="028-image" href="Content/Images/028.jpg" media-type="image/jpeg" />
+		<item id="029-image" href="Content/Images/029.jpg" media-type="image/jpeg" />
+		<item id="030-image" href="Content/Images/030.jpg" media-type="image/jpeg" />
+		<item id="031-image" href="Content/Images/031.jpg" media-type="image/jpeg" />
+		<item id="032-image" href="Content/Images/032.jpg" media-type="image/jpeg" />
+		<item id="033-image" href="Content/Images/033.jpg" media-type="image/jpeg" />
+		<item id="034-image" href="Content/Images/034.jpg" media-type="image/jpeg" />
+		<item id="035-image" href="Content/Images/035.jpg" media-type="image/jpeg" />
+		<item id="036-image" href="Content/Images/036.jpg" media-type="image/jpeg" />
+		<item id="037-image" href="Content/Images/037.jpg" media-type="image/jpeg" />
+		<item id="038-image" href="Content/Images/038.jpg" media-type="image/jpeg" />
+		<item id="039-image" href="Content/Images/039.jpg" media-type="image/jpeg" />
+		<item id="040-image" href="Content/Images/040.jpg" media-type="image/jpeg" />
+		<item id="041-image" href="Content/Images/041.jpg" media-type="image/jpeg" />
+		<item id="042-image" href="Content/Images/042.jpg" media-type="image/jpeg" />
+		<item id="043-image" href="Content/Images/043.jpg" media-type="image/jpeg" />
+		<item id="044-image" href="Content/Images/044.jpg" media-type="image/jpeg" />
+		<item id="045-image" href="Content/Images/045.jpg" media-type="image/jpeg" />
+		<item id="046-image" href="Content/Images/046.jpg" media-type="image/jpeg" />
+		<item id="047-image" href="Content/Images/047.jpg" media-type="image/jpeg" />
+		<item id="048-image" href="Content/Images/048.jpg" media-type="image/jpeg" />
+		<item id="049-image" href="Content/Images/049.jpg" media-type="image/jpeg" />
+		<item id="050-image" href="Content/Images/050.jpg" media-type="image/jpeg" />
+		<item id="051-image" href="Content/Images/051.jpg" media-type="image/jpeg" />
+		<item id="052-image" href="Content/Images/052.jpg" media-type="image/jpeg" />
+		<item id="053-image" href="Content/Images/053.jpg" media-type="image/jpeg" />
+		<item id="054-image" href="Content/Images/054.jpg" media-type="image/jpeg" />
+		<item id="055-image" href="Content/Images/055.jpg" media-type="image/jpeg" />
+		<item id="056-image" href="Content/Images/056.jpg" media-type="image/jpeg" />
+		<item id="057-image" href="Content/Images/057.jpg" media-type="image/jpeg" />
+		<item id="058-image" href="Content/Images/058.jpg" media-type="image/jpeg" />
+		<item id="059-image" href="Content/Images/059.jpg" media-type="image/jpeg" />
+		<item id="060-image" href="Content/Images/060.jpg" media-type="image/jpeg" />
+		<item id="061-image" href="Content/Images/061.jpg" media-type="image/jpeg" />
+		<item id="062-image" href="Content/Images/062.jpg" media-type="image/jpeg" />
+		<item id="063-image" href="Content/Images/063.jpg" media-type="image/jpeg" />
+		<item id="064-image" href="Content/Images/064.jpg" media-type="image/jpeg" />
+		<item id="065-image" href="Content/Images/065.jpg" media-type="image/jpeg" />
+		<item id="066-image" href="Content/Images/066.jpg" media-type="image/jpeg" />
+		<item id="067-image" href="Content/Images/067.jpg" media-type="image/jpeg" />
+		<item id="068-image" href="Content/Images/068.jpg" media-type="image/jpeg" />
+		<item id="069-image" href="Content/Images/069.jpg" media-type="image/jpeg" />
+		<item id="070-image" href="Content/Images/070.jpg" media-type="image/jpeg" />
+		<item id="071-image" href="Content/Images/071.jpg" media-type="image/jpeg" />
+		<item id="072-image" href="Content/Images/072.jpg" media-type="image/jpeg" />
+		<item id="073-image" href="Content/Images/073.jpg" media-type="image/jpeg" />
+		<item id="074-image" href="Content/Images/074.jpg" media-type="image/jpeg" />
+		<item id="075-image" href="Content/Images/075.jpg" media-type="image/jpeg" />
+		<item id="076-image" href="Content/Images/076.jpg" media-type="image/jpeg" />
+		<item id="077-image" href="Content/Images/077.jpg" media-type="image/jpeg" />
+		<item id="078-image" href="Content/Images/078.jpg" media-type="image/jpeg" />
+		<item id="079-image" href="Content/Images/079.jpg" media-type="image/jpeg" />
+		<item id="080-image" href="Content/Images/080.jpg" media-type="image/jpeg" />
+		<item id="081-image" href="Content/Images/081.jpg" media-type="image/jpeg" />
+		<item id="082-image" href="Content/Images/082.jpg" media-type="image/jpeg" />
+		<item id="083-image" href="Content/Images/083.jpg" media-type="image/jpeg" />
+		<item id="084-image" href="Content/Images/084.jpg" media-type="image/jpeg" />
+		<item id="085-image" href="Content/Images/085.jpg" media-type="image/jpeg" />
+		<item id="086-image" href="Content/Images/086.jpg" media-type="image/jpeg" />
+		<item id="087-image" href="Content/Images/087.jpg" media-type="image/jpeg" />
+		<item id="088-image" href="Content/Images/088.jpg" media-type="image/jpeg" />
+		<item id="089-image" href="Content/Images/089.jpg" media-type="image/jpeg" />
+		<item id="090-image" href="Content/Images/090.jpg" media-type="image/jpeg" />
+		<item id="091-image" href="Content/Images/091.jpg" media-type="image/jpeg" />
+		<item id="092-image" href="Content/Images/092.jpg" media-type="image/jpeg" />
+		<item id="093-image" href="Content/Images/093.jpg" media-type="image/jpeg" />
+		<item id="094-image" href="Content/Images/094.jpg" media-type="image/jpeg" />
+		<item id="095-image" href="Content/Images/095.jpg" media-type="image/jpeg" />
+		<item id="096-image" href="Content/Images/096.jpg" media-type="image/jpeg" />
+		<item id="097-image" href="Content/Images/097.jpg" media-type="image/jpeg" />
+		<item id="098-image" href="Content/Images/098.jpg" media-type="image/jpeg" />
+		<item id="099-image" href="Content/Images/099.jpg" media-type="image/jpeg" />
+		<item id="100-image" href="Content/Images/100.jpg" media-type="image/jpeg" />
+		<item id="101-image" href="Content/Images/101.jpg" media-type="image/jpeg" />
+		<item id="102-image" href="Content/Images/102.jpg" media-type="image/jpeg" />
+		<item id="103-image" href="Content/Images/103.jpg" media-type="image/jpeg" />
+		<item id="104-image" href="Content/Images/104.jpg" media-type="image/jpeg" />
+		<item id="105-image" href="Content/Images/105.jpg" media-type="image/jpeg" />
+		
+		<item id="000" href="Content/XHTML/000.xhtml" media-type="application/xhtml+xml" />
+		<item id="001" href="Content/XHTML/001.xhtml" media-type="application/xhtml+xml" />
+		<item id="002" href="Content/XHTML/002.xhtml" media-type="application/xhtml+xml" />
+		<item id="003" href="Content/XHTML/003.xhtml" media-type="application/xhtml+xml" />
+		<item id="004" href="Content/XHTML/004.xhtml" media-type="application/xhtml+xml" />
+		<item id="005" href="Content/XHTML/005.xhtml" media-type="application/xhtml+xml" />
+		<item id="006" href="Content/XHTML/006.xhtml" media-type="application/xhtml+xml" />
+		<item id="007" href="Content/XHTML/007.xhtml" media-type="application/xhtml+xml" />
+		<item id="008" href="Content/XHTML/008.xhtml" media-type="application/xhtml+xml" />
+		<item id="009" href="Content/XHTML/009.xhtml" media-type="application/xhtml+xml" />
+		<item id="010" href="Content/XHTML/010.xhtml" media-type="application/xhtml+xml" />
+		<item id="011" href="Content/XHTML/011.xhtml" media-type="application/xhtml+xml" />
+		<item id="012" href="Content/XHTML/012.xhtml" media-type="application/xhtml+xml" />
+		<item id="013" href="Content/XHTML/013.xhtml" media-type="application/xhtml+xml" />
+		<item id="014" href="Content/XHTML/014.xhtml" media-type="application/xhtml+xml" />
+		<item id="015" href="Content/XHTML/015.xhtml" media-type="application/xhtml+xml" />
+		<item id="016" href="Content/XHTML/016.xhtml" media-type="application/xhtml+xml" />
+		<item id="017" href="Content/XHTML/017.xhtml" media-type="application/xhtml+xml" />
+		<item id="018" href="Content/XHTML/018.xhtml" media-type="application/xhtml+xml" />
+		<item id="019" href="Content/XHTML/019.xhtml" media-type="application/xhtml+xml" />
+		<item id="020" href="Content/XHTML/020.xhtml" media-type="application/xhtml+xml" />
+		<item id="021" href="Content/XHTML/021.xhtml" media-type="application/xhtml+xml" />
+		<item id="022" href="Content/XHTML/022.xhtml" media-type="application/xhtml+xml" />
+		<item id="023" href="Content/XHTML/023.xhtml" media-type="application/xhtml+xml" />
+		<item id="024" href="Content/XHTML/024.xhtml" media-type="application/xhtml+xml" />
+		<item id="025" href="Content/XHTML/025.xhtml" media-type="application/xhtml+xml" />
+		<item id="026" href="Content/XHTML/026.xhtml" media-type="application/xhtml+xml" />
+		<item id="027" href="Content/XHTML/027.xhtml" media-type="application/xhtml+xml" />
+		<item id="028" href="Content/XHTML/028.xhtml" media-type="application/xhtml+xml" />
+		<item id="029" href="Content/XHTML/029.xhtml" media-type="application/xhtml+xml" />
+		<item id="030" href="Content/XHTML/030.xhtml" media-type="application/xhtml+xml" />
+		<item id="031" href="Content/XHTML/031.xhtml" media-type="application/xhtml+xml" />
+		<item id="032" href="Content/XHTML/032.xhtml" media-type="application/xhtml+xml" />
+		<item id="033" href="Content/XHTML/033.xhtml" media-type="application/xhtml+xml" />
+		<item id="034" href="Content/XHTML/034.xhtml" media-type="application/xhtml+xml" />
+		<item id="035" href="Content/XHTML/035.xhtml" media-type="application/xhtml+xml" />
+		<item id="036" href="Content/XHTML/036.xhtml" media-type="application/xhtml+xml" />
+		<item id="037" href="Content/XHTML/037.xhtml" media-type="application/xhtml+xml" />
+		<item id="038" href="Content/XHTML/038.xhtml" media-type="application/xhtml+xml" />
+		<item id="039" href="Content/XHTML/039.xhtml" media-type="application/xhtml+xml" />
+		<item id="040" href="Content/XHTML/040.xhtml" media-type="application/xhtml+xml" />
+		<item id="041" href="Content/XHTML/041.xhtml" media-type="application/xhtml+xml" />
+		<item id="042" href="Content/XHTML/042.xhtml" media-type="application/xhtml+xml" />
+		<item id="043" href="Content/XHTML/043.xhtml" media-type="application/xhtml+xml" />
+		<item id="044" href="Content/XHTML/044.xhtml" media-type="application/xhtml+xml" />
+		<item id="045" href="Content/XHTML/045.xhtml" media-type="application/xhtml+xml" />
+		<item id="046" href="Content/XHTML/046.xhtml" media-type="application/xhtml+xml" />
+		<item id="047" href="Content/XHTML/047.xhtml" media-type="application/xhtml+xml" />
+		<item id="048" href="Content/XHTML/048.xhtml" media-type="application/xhtml+xml" />
+		<item id="049" href="Content/XHTML/049.xhtml" media-type="application/xhtml+xml" />
+		<item id="050" href="Content/XHTML/050.xhtml" media-type="application/xhtml+xml" />
+		<item id="051" href="Content/XHTML/051.xhtml" media-type="application/xhtml+xml" />
+		<item id="052" href="Content/XHTML/052.xhtml" media-type="application/xhtml+xml" />
+		<item id="053" href="Content/XHTML/053.xhtml" media-type="application/xhtml+xml" />
+		<item id="054" href="Content/XHTML/054.xhtml" media-type="application/xhtml+xml" />
+		<item id="055" href="Content/XHTML/055.xhtml" media-type="application/xhtml+xml" />
+		<item id="056" href="Content/XHTML/056.xhtml" media-type="application/xhtml+xml" />
+		<item id="057" href="Content/XHTML/057.xhtml" media-type="application/xhtml+xml" />
+		<item id="058" href="Content/XHTML/058.xhtml" media-type="application/xhtml+xml" />
+		<item id="059" href="Content/XHTML/059.xhtml" media-type="application/xhtml+xml" />
+		<item id="060" href="Content/XHTML/060.xhtml" media-type="application/xhtml+xml" />
+		<item id="061" href="Content/XHTML/061.xhtml" media-type="application/xhtml+xml" />
+		<item id="062" href="Content/XHTML/062.xhtml" media-type="application/xhtml+xml" />
+		<item id="063" href="Content/XHTML/063.xhtml" media-type="application/xhtml+xml" />
+		<item id="064" href="Content/XHTML/064.xhtml" media-type="application/xhtml+xml" />
+		<item id="065" href="Content/XHTML/065.xhtml" media-type="application/xhtml+xml" />
+		<item id="066" href="Content/XHTML/066.xhtml" media-type="application/xhtml+xml" />
+		<item id="067" href="Content/XHTML/067.xhtml" media-type="application/xhtml+xml" />
+		<item id="068" href="Content/XHTML/068.xhtml" media-type="application/xhtml+xml" />
+		<item id="069" href="Content/XHTML/069.xhtml" media-type="application/xhtml+xml" />
+		<item id="070" href="Content/XHTML/070.xhtml" media-type="application/xhtml+xml" />
+		<item id="071" href="Content/XHTML/071.xhtml" media-type="application/xhtml+xml" />
+		<item id="072" href="Content/XHTML/072.xhtml" media-type="application/xhtml+xml" />
+		<item id="073" href="Content/XHTML/073.xhtml" media-type="application/xhtml+xml" />
+		<item id="074" href="Content/XHTML/074.xhtml" media-type="application/xhtml+xml" />
+		<item id="075" href="Content/XHTML/075.xhtml" media-type="application/xhtml+xml" />
+		<item id="076" href="Content/XHTML/076.xhtml" media-type="application/xhtml+xml" />
+		<item id="077" href="Content/XHTML/077.xhtml" media-type="application/xhtml+xml" />
+		<item id="078" href="Content/XHTML/078.xhtml" media-type="application/xhtml+xml" />
+		<item id="079" href="Content/XHTML/079.xhtml" media-type="application/xhtml+xml" />
+		<item id="080" href="Content/XHTML/080.xhtml" media-type="application/xhtml+xml" />
+		<item id="081" href="Content/XHTML/081.xhtml" media-type="application/xhtml+xml" />
+		<item id="082" href="Content/XHTML/082.xhtml" media-type="application/xhtml+xml" />
+		<item id="083" href="Content/XHTML/083.xhtml" media-type="application/xhtml+xml" />
+		<item id="084" href="Content/XHTML/084.xhtml" media-type="application/xhtml+xml" />
+		<item id="085" href="Content/XHTML/085.xhtml" media-type="application/xhtml+xml" />
+		<item id="086" href="Content/XHTML/086.xhtml" media-type="application/xhtml+xml" />
+		<item id="087" href="Content/XHTML/087.xhtml" media-type="application/xhtml+xml" />
+		<item id="088" href="Content/XHTML/088.xhtml" media-type="application/xhtml+xml" />
+		<item id="089" href="Content/XHTML/089.xhtml" media-type="application/xhtml+xml" />
+		<item id="090" href="Content/XHTML/090.xhtml" media-type="application/xhtml+xml" />
+		<item id="091" href="Content/XHTML/091.xhtml" media-type="application/xhtml+xml" />
+		<item id="092" href="Content/XHTML/092.xhtml" media-type="application/xhtml+xml" />
+		<item id="093" href="Content/XHTML/093.xhtml" media-type="application/xhtml+xml" />
+		<item id="094" href="Content/XHTML/094.xhtml" media-type="application/xhtml+xml" />
+		<item id="095" href="Content/XHTML/095.xhtml" media-type="application/xhtml+xml" />
+		<item id="096" href="Content/XHTML/096.xhtml" media-type="application/xhtml+xml" />
+		<item id="097" href="Content/XHTML/097.xhtml" media-type="application/xhtml+xml" />
+		<item id="098" href="Content/XHTML/098.xhtml" media-type="application/xhtml+xml" />
+		<item id="099" href="Content/XHTML/099.xhtml" media-type="application/xhtml+xml" />
+		<item id="100" href="Content/XHTML/100.xhtml" media-type="application/xhtml+xml" />
+		<item id="101" href="Content/XHTML/101.xhtml" media-type="application/xhtml+xml" />
+		<item id="102" href="Content/XHTML/102.xhtml" media-type="application/xhtml+xml" />
+		<item id="103" href="Content/XHTML/103.xhtml" media-type="application/xhtml+xml" />
+		<item id="104" href="Content/XHTML/104.xhtml" media-type="application/xhtml+xml" />
+		<item id="105" href="Content/XHTML/105.xhtml" media-type="application/xhtml+xml" />
+	</manifest>
+	
+	<spine>
+		<itemref idref="000" linear="no" properties="rendition:page-spread-center" />
+		<itemref idref="001" />
+		<itemref idref="002" />
+		<itemref idref="003" />
+		<itemref idref="004" />
+		<itemref idref="005" />
+		<itemref idref="006" />
+		<itemref idref="007" />
+		<itemref idref="008" />
+		<itemref idref="009" />
+		<itemref idref="010" />
+		<itemref idref="011" />
+		<itemref idref="012" />
+		<itemref idref="013" />
+		<itemref idref="014" />
+		<itemref idref="015" />
+		<itemref idref="016" />
+		<itemref idref="017" />
+		<itemref idref="018" />
+		<itemref idref="019" />
+		<itemref idref="020" />
+		<itemref idref="021" />
+		<itemref idref="022" />
+		<itemref idref="023" />
+		<itemref idref="024" />
+		<itemref idref="025" />
+		<itemref idref="026" />
+		<itemref idref="027" />
+		<itemref idref="028" />
+		<itemref idref="029" />
+		<itemref idref="030" />
+		<itemref idref="031" />
+		<itemref idref="032" />
+		<itemref idref="033" />
+		<itemref idref="034" />
+		<itemref idref="035" />
+		<itemref idref="036" />
+		<itemref idref="037" />
+		<itemref idref="038" />
+		<itemref idref="039" />
+		<itemref idref="040" />
+		<itemref idref="041" />
+		<itemref idref="042" />
+		<itemref idref="043" />
+		<itemref idref="044" />
+		<itemref idref="045" />
+		<itemref idref="046" />
+		<itemref idref="047" />
+		<itemref idref="048" />
+		<itemref idref="049" />
+		<itemref idref="050" />
+		<itemref idref="051" />
+		<itemref idref="052" />
+		<itemref idref="053" />
+		<itemref idref="054" />
+		<itemref idref="055" />
+		<itemref idref="056" />
+		<itemref idref="057" />
+		<itemref idref="058" />
+		<itemref idref="059" />
+		<itemref idref="060" />
+		<itemref idref="061" />
+		<itemref idref="062" />
+		<itemref idref="063" />
+		<itemref idref="064" />
+		<itemref idref="065" />
+		<itemref idref="066" />
+		<itemref idref="067" />
+		<itemref idref="068" />
+		<itemref idref="069" />
+		<itemref idref="070" />
+		<itemref idref="071" />
+		<itemref idref="072" />
+		<itemref idref="073" />
+		<itemref idref="073" />
+		<itemref idref="074" />
+		<itemref idref="075" />
+		<itemref idref="076" />
+		<itemref idref="077" />
+		<itemref idref="078" />
+		<itemref idref="079" />
+		<itemref idref="080" />
+		<itemref idref="081" />
+		<itemref idref="082" />
+		<itemref idref="083" />
+		<itemref idref="084" />
+		<itemref idref="085" />
+		<itemref idref="086" />
+		<itemref idref="087" />
+		<itemref idref="088" />
+		<itemref idref="089" />
+		<itemref idref="090" />
+		<itemref idref="091" />
+		<itemref idref="092" />
+		<itemref idref="093" />
+		<itemref idref="094" />
+		<itemref idref="095" />
+		<itemref idref="096" />
+		<itemref idref="097" />
+		<itemref idref="098" />
+		<itemref idref="099" />
+		<itemref idref="100" />
+		<itemref idref="101" />
+		<itemref idref="102" />
+		<itemref idref="103" />
+		<itemref idref="104" />
+		<itemref idref="105" />
+	</spine>
+</package>
